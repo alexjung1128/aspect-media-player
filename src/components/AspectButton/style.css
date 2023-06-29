@@ -1,0 +1,8 @@
+.aspect_button {
+	@apply flex flex-col justify-between flex-grow w-full h-full px-[10px] py-[20px] bg-gray-200 rounded-lg cursor-pointer border-gray-200 border-[1px];
+	@apply hover: bg-cyan-100 hover:border-cyan-200;
+}
+
+.aspect_button.active {
+	@apply bg-cyan-100 border-cyan-200
+}
